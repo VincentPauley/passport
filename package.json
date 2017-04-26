@@ -1,5 +1,5 @@
 {
-  "name": "passport",
+  "name": "authentication_deom",
   "version": "1.0.0",
   "description": "basic authentication tutorial",
   "main": "server.js",
@@ -15,5 +15,22 @@
   "bugs": {
     "url": "https://github.com/VincentPauley/passport/issues"
   },
-  "homepage": "https://github.com/VincentPauley/passport#readme"
+  "homepage": "https://github.com/VincentPauley/passport#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  }
 }
